@@ -1,0 +1,60 @@
+.mc-td-responsive-style{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+.mc-add-button-style{
+    border-radius: 50%;
+    background-color: #cccccc;
+    color: #ffffff;
+}
+
+.mc-success{
+    text-align: center;
+    padding-right: 50px;
+    color: #00cc66;
+}
+
+.mc-nav-menu{
+    border-radius: 5px;
+}
+
+.mc-btn-size{
+    width: 100px;
+}
+
+.mc-select-size{
+    width: 250px;
+}
+
+.mc-input-size{
+    width: 250px;
+}
+
+.mc-bg-lightblue{
+    background-color: #81d4fa;
+}
+
+/*footer*/
+.mc-footer-1{
+    position: relative;
+    min-height: 50px;
+    background-color: #81d4fa;
+    color: #000000;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.mc-footer-1 p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mc-footer{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
