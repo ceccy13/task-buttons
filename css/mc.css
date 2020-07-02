@@ -1,3 +1,7 @@
+.mc-main-container{
+    min-height: 500px;
+}
+
 .mc-td-responsive-style{
     display: inline-block;
     margin: 10px;
@@ -52,9 +56,3 @@
     padding-bottom: 15px;
 }
 
-.mc-footer{
-    position: fixed;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-}
