@@ -1,7 +1,7 @@
 # task-buttons
 task-buttons
 
--- Paths To My Project Files --
+-- Paths To Task-Butttons Project Files --
 
 -- Controller --
 
