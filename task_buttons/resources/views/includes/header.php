@@ -50,6 +50,11 @@
 
 <div class="container">
     <nav class="navbar navbar-expand-xl navbar-light mc-bg-lightblue mc-nav-menu">
+
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
         <div class="navbar-collapse collapse" id="navbar" >
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -60,6 +65,7 @@
                 </li>
             </ul>
         </div>
+
     </nav>
 </div>
 
@@ -70,6 +76,8 @@
     </h5>
 </div>
 </div>
+
+<div class="container mc-main-container">
 
 
 

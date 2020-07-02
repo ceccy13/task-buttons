@@ -2,9 +2,8 @@
 include(app_path().'/../resources/views/includes/header.php');
 ?>
 
-    <input type="hidden" id="title" name="pageName" value="create_button" />
+        <input type="hidden" id="title" name="pageName" value="create_button" />
 
-    <div class="container">
         <div>&nbsp;</div>
         <h2>Create Button</h2>
         <div>&nbsp;</div>

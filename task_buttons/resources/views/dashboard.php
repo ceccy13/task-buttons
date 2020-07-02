@@ -2,9 +2,8 @@
 include(app_path().'/../resources/views/includes/header.php');
 ?>
 
-    <input type="hidden" id="title" name="pageName" value="dashboard" />
+        <input type="hidden" id="title" name="pageName" value="dashboard" />
 
-    <div class="container">
         <div>&nbsp;</div>
         <h2>Buttons</h2>
         <div>&nbsp;</div>

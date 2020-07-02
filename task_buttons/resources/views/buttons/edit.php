@@ -2,9 +2,8 @@
 include(app_path().'/../resources/views/includes/header.php');
 ?>
 
-    <input type="hidden" id="title" name="pageName" value="edit_button" />
+        <input type="hidden" id="title" name="pageName" value="edit_button" />
 
-    <div class="container">
         <div>&nbsp;</div>
         <h2>Edit Button</h2>
         <div>&nbsp;</div>
