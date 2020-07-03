@@ -38,6 +38,7 @@ class Buttons extends Model
         $data = DB::table('buttons')
                     ->select('buttons.*', 'colors.name', 'colors.color')
                     ->leftJoin('colors', 'buttons.color_id', '=', 'colors.id')
+                    ->orderBy('buttons.updated_at', 'desc')
                     ->get();
         $data = Converter::convertObjToArr($data);
         return $data;
