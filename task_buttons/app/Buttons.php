@@ -28,6 +28,7 @@ class Buttons extends Model
     public static function validate($request)
     {
         return Validator::make($request, [
+			'btn_id' => 'bail|required|regex:/^[1-9]{1}$/',
 			'title' => 'bail|required|string|min:2|max:50',
             'link' => ['bail', 'required', 'url', 'max:100'],
             'color_id' => ['bail', 'required', 'numeric', 'exists:colors,id'],
