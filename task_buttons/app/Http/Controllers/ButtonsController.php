@@ -73,6 +73,7 @@ class ButtonsController extends Controller
     public function edit($id)
     {
         $button = Buttons::getButton($id);
+		if(empty($button)) return abort(404);
         $colors = Colors::getList();
         return view('buttons.edit',array('button' => $button, 'colors' => $colors, 'id'=>$id));
     }
