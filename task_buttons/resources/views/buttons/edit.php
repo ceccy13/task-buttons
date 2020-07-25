@@ -22,6 +22,10 @@ include(app_path().'/../resources/views/includes/header.php');
                                 <label for="titles">Title</label>
                             </div>
                             <div class="form-group col-md-4">
+								<input class="form-control mc-input-size" name="btn_id" type="hidden" value="<?= old('btn_id',$button[0]['id']); ?>">
+								<div class="invalid-feedback">
+									<?= $errors->first('btn_id'); ?>
+								</div>
                                 <input class="form-control mc-input-size" name="title" type="text" value="<?= old('title', $button[0]['title']); ?>">
                                 <div class="invalid-feedback">
                                     <?= $errors->first('title'); ?>
