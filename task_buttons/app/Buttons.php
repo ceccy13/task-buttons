@@ -13,10 +13,11 @@ class Buttons extends Model
     public static function normalize($request)
     {
         foreach($request as $field => $value){
-            if( $field == 'btn_id' || $field == 'color') continue;
+            if( $field == 'btn_id' || $field == 'color_id') continue;
             $value = trim($value);
             //Премахваме празните полета,където са повече от едно между думите в низа, ако има такива
             $value = preg_replace('#[\s]+#', ' ', $value);
+			$value = htmlspecialchars($value);
 
             $request[$field] = $value;
         }
