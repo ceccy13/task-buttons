@@ -15,14 +15,17 @@ include(app_path().'/../resources/views/includes/header.php');
                 <!--form-->
                 <form id="form-btn" method="post" action="<?= action('ButtonsController@store'); ?>" >
                     <input name="_token" type="hidden" value="<?= csrf_token(); ?>">
-                    <input name="_method" type="hidden" value="post">
-                    <input name="btn_id" type="hidden" value="<?= old('btn_id',$btn_id); ?>">
+                    <input name="_method" type="hidden" value="post">                  
 
                     <div class="row">
                         <div class="form-group col-md-2">
                             <label for="titles">Title</label>
                         </div>
                         <div class="form-group col-md-4">
+							<input class="form-control mc-input-size" name="btn_id" type="hidden" value="<?= old('btn_id',$btn_id); ?>">
+							<div class="invalid-feedback">
+								<?= $errors->first('btn_id'); ?>
+                            </div>
                             <input class="form-control mc-input-size" name="title" type="text" value="<?= old('title');?>">
                             <div class="invalid-feedback">
                                 <?= $errors->first('title'); ?>
